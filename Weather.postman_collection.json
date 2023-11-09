@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "c9315902-0da9-4d7f-8858-e47f590946ca",
+		"name": "Weather",
+		"description": "# Introduction\nRetrieves data about weather?",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23964398"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/api/weather",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": "http://127.0.0.1:8000/api/weather"
+			},
+			"response": [
+				{
+					"name": "Default",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": "http://127.0.0.1:8000/api/weather"
+					},
+					"_postman_previewlanguage": null,
+					"header": null,
+					"cookie": [],
+					"body": null
+				}
+			]
+		}
+	]
+}
